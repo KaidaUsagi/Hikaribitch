@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = "MzM0NjQ1OTMyNDA4OTYzMDcy.DXMpoQ.Jmgn-D7pAeNSdlXHbUZnKhcqwQM";
 const fs = require('fs');
 const { Users, CurrencyShop } = require('./dbObjects');
 const currency = new Discord.Collection();
