@@ -1,5 +1,5 @@
 {
-    "token" : (process.env.BOT_TOKEN),
+    "token" : " ",
     "tmdbKey" : "bfbda859283f82c2083f9575cd8943ec",
     "prefix" : "neko",
     "muterole" : "muted",
