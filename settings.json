@@ -1,10 +1,10 @@
 {
-    "token" : "YOUR TOKEN HERE",
+    "token" : process.env.BOT_TOKEN,
     "tmdbKey" : "bfbda859283f82c2083f9575cd8943ec",
     "prefix" : "neko",
     "muterole" : "muted",
     "modrole":  "police-neko, mods",
     "adminrole" : "neko-mew, admin",
-    "ownerid" : "YOUR ID HERE",
+    "ownerid" : "265546185954033674",
     "welcomeChannel": "neko-chat, welcome"
   }
