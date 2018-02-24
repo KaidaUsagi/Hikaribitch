@@ -3,8 +3,8 @@
     "tmdbKey" : "bfbda859283f82c2083f9575cd8943ec",
     "prefix" : "neko",
     "muterole" : "muted",
-    "modrole":  "police-neko",
-    "adminrole" : "neko-mew",
+    "modrole":  "police-neko, mods",
+    "adminrole" : "neko-mew, admin",
     "ownerid" : "YOUR ID HERE",
-    "welcomeChannel": "neko-chat"
+    "welcomeChannel": "neko-chat, welcome"
   }
