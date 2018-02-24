@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = "YOUR TOKEN HERE";
+const token = "MzM0NjQ1OTMyNDA4OTYzMDcy.DXMpoQ.Jmgn-D7pAeNSdlXHbUZnKhcqwQM";
 const fs = require('fs');
 const { Users, CurrencyShop } = require('./dbObjects');
 const currency = new Discord.Collection();
@@ -184,4 +184,4 @@ client.on("message", message => {
     console.log(e);
   });
 
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
