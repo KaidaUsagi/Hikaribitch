@@ -1,10 +1,10 @@
 {
-    "token" : "MzM0NjQ1OTMyNDA4OTYzMDcy.DWOEAQ._czRRW_m7_oAUvikhQIzt5v3ZNQ",
+    "token" : "YOUR TOKEN HERE",
     "tmdbKey" : "bfbda859283f82c2083f9575cd8943ec",
     "prefix" : "neko",
     "muterole" : "muted",
     "modrole":  "police-neko",
     "adminrole" : "neko-mew",
-    "ownerid" : "265546185954033674",
+    "ownerid" : "YOUR ID HERE",
     "welcomeChannel": "neko-chat"
   }
