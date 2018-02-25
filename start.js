@@ -75,7 +75,7 @@ client.on('message', async message => {
     return message.channel.send(`Successfully transferred ${transferAmount}💰 to ${transferTarget.tag}. Your current balance is ${currency.getBalance(message.author.id)}💰`);
   }
   else if (command === 'buy') {
-    const item = await CurrencyShop.findOne({ where: { name: { $iLike: commandArgs } } });
+    const item = await CurrencyShop.findOne({ where: { name: { $ilike: commandArgs } } });
     if (!item) return message.channel.send(`That item doesn't exist.`);
     if (item.cost > currency.getBalance(message.author.id)) {
         return message.channel.send(`You currently have ${currency.getBalance(message.author.id)}, but the ${item.name} costs ${item.cost}!`);
