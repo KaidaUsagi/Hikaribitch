@@ -6,6 +6,15 @@ const currency = new Discord.Collection();
 const config = require('./settings.json');
 require('./util/eventLoader')(client);
 
+var anti-spam = require("discord-anti-spam");
+antispam (<client>, {
+  warnBuffer: 3,
+  maxBuffer: 5,
+  interval: 1000,
+  warningMessage: "Stop spamming or I'll whack your head off!",
+  banMessage: "Has been banned for spamming, anyone else?"
+});
+
 Reflect.defineProperty(currency, 'add', {
   value: async function add(id, amount) {
       const user = currency.get(id);
