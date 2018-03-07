@@ -6,7 +6,7 @@ const currency = new Discord.Collection();
 const config = require('./settings.json');
 require('./util/eventLoader')(client);
 
-var anti_spam = require("discord-anti-spam");
+var antispam = require("discord-anti-spam");
 antispam ( client, {
   warnBuffer: 3,
   maxBuffer: 5,
