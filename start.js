@@ -45,8 +45,8 @@ client.once('ready', async () => {
 });
 
 client.on('message', message => {
-  if (message.isMentioned(client.users.get('265546185954033674')) {
-  message.reply("Stop mentioning her. She's gone and never come back!");
+  if (message.isMentioned(client.users.get(265546185954033674)) {
+  message.reply("Stop mentioning her. She's gone and never come back!")
  }
 });
 
