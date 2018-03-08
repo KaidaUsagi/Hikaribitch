@@ -44,14 +44,6 @@ client.once('ready', async () => {
   client.user.setPresence({ game: {name: games[Math.floor(Math.random() * 10) +1]} });  
 });
 
-client.on('message', message => {
-  if (message.isMentioned(client.users.get(265546185954033674)) {
-  message.reply("Stop mentioning her. She's gone and never come back!")
- }
-});
-
-
-
 client.on('message', async message => {
   if (message.author.bot) return;
   currency.add(message.author.id, 1);
